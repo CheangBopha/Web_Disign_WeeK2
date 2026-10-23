@@ -1,0 +1,45 @@
+body {
+    background: grey;
+    font-family: sans-serif;
+    border: 10px 100px 10px 100px solid black;
+}
+.box1{
+    background: white;
+    padding: 20px 10px 20px 10px;
+    margin-bottom: 30px;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+}
+#bot1{
+    background-color:#008080;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+}
+#bot2{
+    background-color:#FFAE00;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 30px;
+    cursor:pointer;
+}
+#bot3{
+    background-color:#7B007B;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 30px;
+    cursor:pointer;
+}
+#bot1:hover{
+    background-color: #a4e0e0;
+}
+#bot2:hover{
+    background-color: #ffd699;
+}       
+#bot3:hover{
+    background-color: #bf40bf;
+}       

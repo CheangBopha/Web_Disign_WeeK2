@@ -1,0 +1,105 @@
+.body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f4f8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+.profile-card {
+    background-color: #ffffff;
+    width: 320px;
+    padding: 30px 20px;
+    margin: 20px;
+    border-radius: 24px;
+    border: 1px solid #e1e8ed;
+    text-align: center;
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.profile-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 18px 40px rgba(0, 0, 0, 0.12);
+}
+.profile-img-container {
+    margin: 0 auto 15px auto;
+}
+.profile-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    padding: 2px;
+}
+.profile-name {
+    margin: 0 0 5px 0;
+    color: #2c3e50;
+    font-size: 22px;
+    font-weight: 700;
+}
+.stats-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+    padding: 12px 0;
+    border-top: 1px solid #eaeaea;
+    border-bottom: 1px solid #eaeaea;
+}
+.stat-box h3 {
+    margin: 0;
+    font-size: 16px;
+    color: #2c3e50;
+}
+.stat-box p {
+    margin: 3px 0 0 0;
+    font-size: 12px;
+    color: #888888;
+}
+.profile-bio {
+    font-size: 13px;
+    color: #555555;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    padding: 0 10px;
+}
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 25px;
+}
+.social-btn {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background-color: #f1f5f9;
+    color: #3498db;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    text-decoration: none;
+    transition: background-color 0.2s, color 0.2s;
+}
+.social-btn:hover {
+    background-color: #3498db;
+    color: #ffffff;
+}
+.profile-btn {
+    background-color: #3498db;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 12px 35px;
+    border: 2px solid #3498db;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    width: 80%;
+}
+.profile-btn:hover {
+    background-color: #2980b9;
+    border-color: #2980b9;
+    box-shadow: 0 6px 15px rgba(52, 152, 219, 0.35);
+}
